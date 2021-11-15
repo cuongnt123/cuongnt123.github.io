@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header img{
+	height: 80px;
+	padding: 0px 20px;
+}
+.header ul{
+	display: inline;
+	padding: 450px;
+}
+.header ul li{
+	display: inline;
+	padding: 0px 20px;
+}
+.banner{
+	background-image: url("COVER.jpg");
+	height: 400px;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	padding-top: 200px
+}
+.banner h1{
+	padding: 10px 0px; 
+}
+.aboutus{
+	background-color: #EB9E9F;
+	height: 300px
+}
+.aboutus .noidung{
+	float: left;
+	width: 35%;
+	padding: 50px
+}
+.aboutus .noidung p{
+	padding: 20px 0px;
+	line-height: 30px
+}
+.aboutus img{
+	height: 200px;
+	float: right;
+	margin: 40px 130px;
+}
+.ourstory{
+	background-color: antiquewhite;
+	height: 700px;
+	margin-top: 0px;
+}
+.ourstory h1{
+	padding: 60px;
+}
+.ourstory .noidungbentrai{
+	float: left;
+	width: 40%;
+	padding: 200px 0px 0px 100px;
+	line-height: 30px;
+}
+.ourstory .noidungbenphai{
+	float: right;
+	width: 40%;
+	padding: 20px 50px 0px 0px;
+	line-height: 30px;
+}
+.ourstory .noidungbentrai img{
+	height: 170px
+}
+.ourstory .noidungbenphai img{
+	height: 170px
+}
